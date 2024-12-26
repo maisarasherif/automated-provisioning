@@ -7,7 +7,7 @@ provider "azurerm" {
   features {}
 }
 
-# Define resource group
+#Define resource group
 resource "azurerm_resource_group" "rg" {
   name     = "devops-resources"
   location = var.location
